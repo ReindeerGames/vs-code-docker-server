@@ -46,7 +46,6 @@ The VS Code Docker Server provides a lightweight, containerized development envi
 Create a `docker-compose.yml` file:
 
 ```yaml
-version: '3.8'
 services:
   code-server:
     build: .
@@ -61,7 +60,7 @@ services:
 
 Start the stack:
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Example Use Cases
